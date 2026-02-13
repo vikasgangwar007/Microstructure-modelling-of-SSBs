@@ -1,1 +1,44 @@
+SE Overlap Variation – Same Seed Study
+
+This folder contains microstructure simulations where the solid electrolyte (SE) particle overlap
+is systematically varied from 0.60 to 0.95 while keeping the random seed constant.
+
+Objective:
+The purpose of this study is to analyze how increasing solid electrolyte particle overlap
+affects microstructural connectivity and percolation behavior in solid-state battery systems.
+
+Why Same Seed?
+The same random seed is used for all overlap cases to ensure that the initial particle
+distribution remains statistically identical. This allows us to isolate and study only the
+effect of overlap variation without introducing randomness-related structural differences.
+
+Overlap Range:
+The following overlap values are considered:
+0.60
+0.65
+0.70
+0.75
+0.80
+0.85
+0.90
+0.95
+
+Each subfolder (e.g., same_seed_0.60_SE_overlap) contains:
+- Generated microstructure data
+- Particle coordinate information
+- Percolation analysis results
+- Any processed or exported data related to that specific overlap value
+
+Scientific Relevance:
+Solid electrolyte particle overlap plays a critical role in determining:
+- Ionic transport pathways
+- Percolation probability
+- Effective conductivity
+- Microstructural connectivity
+
+By varying overlap while keeping the seed constant, this dataset enables a controlled
+comparative study of structural evolution and transport properties.
+
+This folder is part of the larger project:
+"Microstructure Modelling of Solid-State Batteries"
 
